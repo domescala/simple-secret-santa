@@ -1,5 +1,6 @@
 {
   "en": {
+    "root_folder": "",
     "meta_title": "Simple Secret Santa",
     "meta_description": "Play Secret Santa with your friend! No login or mail required. ",
 
@@ -27,6 +28,8 @@
     "msg_assignment": "You need to give a gift to:"
   },
   "it": {
+    "root_folder": "it/",
+
     "page_title": "Simple Secret Santa",
     "page_subtitle": "Free e open source. Non richiede registrazione",
     "explain_title": "Come si gioca",
