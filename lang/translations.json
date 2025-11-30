@@ -28,7 +28,7 @@
     "msg_assignment": "You need to give a gift to:"
   },
   "it": {
-    "root_folder": "it/",
+    "root_folder": "../",
 
     "page_title": "Simple Secret Santa",
     "page_subtitle": "Free e open source. Non richiede registrazione",
