@@ -21,11 +21,8 @@ if (!game.error) {
 } else {
 }
 
-document.addEventListener("load", () => {
-  document.querySelector("body").classList.remove("is-loading");
-  console.log("NON VA?");
-});
-
 window.addEventListener("load", () => {
-  document.querySelector("body").classList.remove("is-loading");
+  setTimeout(() => {
+    document.querySelector("body").classList.remove("is-loading");
+  }, 100);
 });

@@ -58,6 +58,9 @@ a[href=""] {
   // margin-left: -1.2em;
 }
 
-body.is-loading {
-  opacity: 0;
+body {
+  transition: opacity 1s ease;
+  &.is-loading {
+    opacity: 0;
+  }
 }
