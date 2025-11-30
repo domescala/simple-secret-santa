@@ -1,0 +1,25 @@
+#input-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.santa-input {
+  display: none;
+  position: relative;
+
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(3) {
+    display: block !important;
+  }
+}
+
+.santa-input:not(:placeholder-shown) {
+  display: block;
+}
+.santa-input:not(:placeholder-shown) + .santa-input {
+  display: block;
+}
+.santa-input:placeholder-shown + .santa-input:placeholder-shown {
+  display: none;
+}

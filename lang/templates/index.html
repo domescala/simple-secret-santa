@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{{page_title}}</title>
+
+    <meta name="title" content="{{meta_title}}" />
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{meta_url}}" />
+    <meta property="og:title" content="{{meta_title}}" />
+    <meta property="og:description" content="{{meta_description}}" />
+    <meta property="og:image" content="{{meta_image}}" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="{{meta_url}}" />
+    <meta property="twitter:title" content="{{meta_title}}" />
+    <meta property="twitter:description" content="{{meta_description}}" />
+    <meta property="twitter:image" content="{{meta_image}}" />
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="page-create">
+    <div style="background: #ff4f4f; text-align: center; color: white">
+      THIS PAGE IS IN ALPHA VERSION!
+    </div>
+    <header id="header">
+      <h1>{{page_title}}</h1>
+      <em> {{page_subtitle}} </em>
+    </header>
+    <div id="explain">
+      <h2>{{explain_title}}</h2>
+      <p>{{explain_text}}</p>
+    </div>
+    <div id="input-list">
+      <input
+        type="text"
+        class="santa-input"
+        placeholder="{{input_placeholder}}"
+      />
+      <button class="generate-button" onclick="createGame()">
+        {{button_generate}}
+      </button>
+    </div>
+    <div id="link-list">
+      <a class="secret-link" target="_blank" href=""></a>
+    </div>
+
+    <footer id="footer">
+      <div id="privacy">
+        <ul>
+          <p>
+            <span class="emoji"> {{about_emoji_0}} </span>
+            <b> {{about_title_0}} </b><br />
+            {{about_text_0}}
+          </p>
+          <p>
+            <span class="emoji"> {{about_emoji_1}} </span>
+            <b> {{about_title_1}} </b><br />
+            {{about_text_1}}
+          </p>
+          <p>
+            <span class="emoji"> {{about_emoji_2}} </span>
+            <b> {{about_title_2}} </b><br />
+            {{about_text_2}}
+          </p>
+        </ul>
+      </div>
+
+      <p>{{footer_credit}}</p>
+      <p>{{footer_text}}</p>
+    </footer>
+    <script src="/js/utils.js"></script>
+    <script src="/js/create.js"></script>
+  </body>
+</html>

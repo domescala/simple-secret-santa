@@ -1,0 +1,53 @@
+{
+  "en": {
+    "meta_title": "Simple Secret Santa",
+    "meta_description": "Play Secret Santa with your friend! No login or mail required. ",
+
+    "page_title": "Simple Secret Santa",
+    "page_subtitle": "free and open source. No login required",
+    "input_placeholder": "friend name",
+    "explain_title": "How to play",
+    "explain_text": "Insert your friends' names and press \"generate links\". Each person gets their own unique link. Send it and they'll discover their Secret Santa assignment.",
+    "button_generate": "generate links",
+
+    "about_emoji_0": "☁️",
+    "about_title_0": "100% private",
+    "about_text_0": " Everything runs in your browser. No data is sent to any server, ever.",
+    "about_emoji_1": "📞",
+    "about_title_1": "No email required:",
+    "about_text_1": "Share links however you want: WhatsApp, Telegram, email, or even in             person.",
+    "about_emoji_2": "🛡️",
+    "about_title_2": "Truly anonymous",
+    "about_text_2": "Once you close the page, even you can't see who got whom.",
+    "footer_credit": "Simple Secret Santa - Developed by Domenico Scaletta",
+    "footer_text": "this page is enterly client-side: a static HTML with zero backend hosted by GithubPages. All the christmas magic happens in your browser :) <br />  No data collected, no cookies, no trackers. View the source on Github",
+    "msg_greeting": "Hi",
+    "msg_welcome": "You are participating in Secret-Santa with:",
+    "msg_and": "and",
+    "msg_assignment": "You need to give a gift to:"
+  },
+  "it": {
+    "page_title": "Simple Secret Santa",
+    "page_subtitle": "Free e open source. Non richiede registrazione",
+    "explain_title": "Come si gioca",
+    "explain_text": "Inserisci i nomi dei tuoi amici e premi su \"Buon Natale!\". Verrà creata una lista di link unici, uno per ogni partecipante. Invia il link a ciascun amico per fargli scoprire a chi è stato assegnato.",
+    "button_generate": "Buon Natale!",
+    "about_emoji_0": "☁️",
+    "about_title_0": "Client-side",
+    "about_text_0": " Gli script girano nel tuo browser, in locale: una volta caricata la pagina di fatto è come essere offline. Nessun dato viene raccolto nè inviato ad un server.",
+    "about_emoji_1": "📞",
+    "about_title_1": " Nessuna registrazione ",
+    "about_text_1": "Sei tu a condividere i link! Inviali come preferisci: via Telegram, WhatsApp, sms anche gufi se vuoi.",
+    "about_emoji_2": "🛡️",
+    "about_title_2": "Anonimo",
+    "about_text_2": "Chiudi questa pagina e tutti i dati inseriti e i link spariranno nell'oblio.",
+    "footer_credit": "Simple Secret Santa - Sviluppato da Domenico Scaletta",
+    "footer_text0": "this page is enterly client-side: a static HTML with zero backend hosted by GithubPages. All the christmas magic happens in your browser :) <br />  No data collected, no cookies, no trackers. View the source on Github",
+    "footer_text": "questa pagina è interamente client-side, un html statico senza backend hostato su GithubPages. Tutta la magia del natale avviene nel tuo browser:) <br /> Nessun dato viene raccolto, nessun cookie, nessun tracker.",
+
+    "msg_greeting": "Ciao",
+    "msg_welcome": "Stai giocando al Babbo Natale Segreto con:",
+    "msg_and": "e",
+    "msg_assignment": "Tu sei il babbo segreto di:"
+  }
+}

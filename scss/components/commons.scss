@@ -1,0 +1,63 @@
+* {
+  font-family: monospace;
+}
+input,
+a {
+  display: block;
+  margin: 20px 0;
+  font-size: 28px;
+  font-weight: 400 !important;
+}
+
+body.page-create {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 26px;
+}
+
+.secret-name {
+  display: inline-block;
+  padding: 10px;
+  min-width: 50px;
+  text-align: center;
+  background-color: rgb(227, 227, 227);
+  &.is-hide {
+    background-color: black;
+    color: black;
+
+    &::before {
+      content: "premi per rivelare";
+      color: white;
+      text-align: center;
+    }
+  }
+}
+
+a[href=""] {
+  display: none;
+}
+
+.generate-button {
+  order: 3;
+}
+
+#footer {
+  text-align: left;
+}
+
+.emoji {
+  // position: absolute;
+  // margin-left: -1.2em;
+}
+
+body.is-loading {
+  opacity: 0;
+}
